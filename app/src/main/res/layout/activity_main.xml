@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tvbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        />
 
     <EditText
         android:id="@+id/etdisplay"
@@ -32,7 +42,7 @@
             android:layout_height="wrap_content"
             android:text="%"
             android:textSize="30dp"
-            android:backgroundTint="#00000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             android:textIsSelectable="false"
@@ -45,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text="/"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -57,7 +67,7 @@
             android:layout_height="wrap_content"
             android:text="C"
             android:textSize="30dp"
-            android:backgroundTint="#00000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -69,7 +79,7 @@
             android:layout_height="wrap_content"
             android:text="B"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -81,7 +91,7 @@
             android:layout_height="wrap_content"
             android:text="7"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -93,7 +103,7 @@
             android:layout_height="wrap_content"
             android:text="8"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -105,7 +115,7 @@
             android:layout_height="wrap_content"
             android:text="9"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -117,7 +127,7 @@
             android:layout_height="wrap_content"
             android:text="*"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -129,7 +139,7 @@
             android:layout_height="wrap_content"
             android:text="4"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -141,7 +151,7 @@
             android:layout_height="wrap_content"
             android:text="5"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -153,7 +163,7 @@
             android:layout_height="wrap_content"
             android:text="6"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -165,7 +175,7 @@
             android:layout_height="wrap_content"
             android:text="-"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -177,7 +187,7 @@
             android:layout_height="wrap_content"
             android:text="1"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -189,7 +199,7 @@
             android:layout_height="wrap_content"
             android:text="2"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -201,7 +211,7 @@
             android:layout_height="wrap_content"
             android:text="3"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -213,7 +223,7 @@
             android:layout_height="wrap_content"
             android:text="+"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -225,10 +235,9 @@
             android:layout_height="wrap_content"
             android:text="+/-"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
-
             />
         <Button
             android:id="@+id/btn0"
@@ -238,7 +247,7 @@
             android:layout_height="wrap_content"
             android:text="0"
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -250,7 +259,7 @@
             android:layout_height="wrap_content"
             android:text="."
             android:textSize="30dp"
-            android:backgroundTint="#000000"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginBottom="-11dp"
             />
@@ -262,7 +271,7 @@
             android:layout_height="wrap_content"
             android:text="="
             android:textSize="30dp"
-            android:backgroundTint="#e1e1e1"
+            android:backgroundTint="@color/teal_200"
             android:textColor="@color/black"
             android:layout_marginBottom="-11dp"
             />
